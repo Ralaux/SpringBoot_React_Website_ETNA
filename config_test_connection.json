@@ -1,8 +1,0 @@
-{
-    "sourceFolderPath" :"C:\\KiwiExtractor\\export\\",
-	"tenantUrl" : "https://sharepoint.corp.els",
-	"tenantUser": "ZEUS\\SVC_SP_P_08",
-	"storageQuota" : "500000",
-	"debugMode" : "true"
-}
-
