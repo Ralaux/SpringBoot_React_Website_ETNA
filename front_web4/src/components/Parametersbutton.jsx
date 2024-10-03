@@ -7,7 +7,7 @@ const ParametersButton = () => {
         <div>
             {sessionStorage.getItem('token') && (
                 <Link id="parameterButton" to="/parameters">
-                    <img src="./assets/adjust.png" alt="PARAMETERS" />
+                    <img src="./../assets/adjust.png" alt="PARAMETERS" />
                 </Link>
             )}
         </div>

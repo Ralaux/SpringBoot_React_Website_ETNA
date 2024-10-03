@@ -94,6 +94,7 @@ const CharacterPage = () => {
                 <div>
                     <h3>Vidéo guide pour {character.name} de {character.video.yt_channel}</h3>
                     <iframe
+                        id='video'
                         title='titre'
                         src={character.video.url.replace("watch?v=", "embed/") // on parse la video et on change le watch par embed snn youtube laisse pas
                         }

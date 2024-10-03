@@ -25,7 +25,7 @@ function Characterlist() {
     return (
         loaded ?
             <div>
-                <p id="texthome"> Des guides pour les bons, et les moins bons ...</p>
+                <p id="texthome"> Des guides pour les bons, et les moins bons</p>
                 <ul>
                     {characters.map(characters => (
                         <Link to={`/character/${characters.id}`} >

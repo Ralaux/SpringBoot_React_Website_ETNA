@@ -12,8 +12,7 @@ function LoginOrRegisterButton() {
     if (sessionStorage.getItem('token')) {
         return (
             <div class='loginOrRegisterButton'>
-                Connecté en tant que {sessionStorage.getItem('username')} ! <br />
-                <Deconnexion />
+                Bienvenue {sessionStorage.getItem('username')} ! <Deconnexion />
             </div>
         );
     }
